@@ -4,6 +4,9 @@ Welcome! This guide is for beginners who want to set up and start using Git and 
 
 ---
 
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
+
 ## 1. Setting Up Your Git Credentials
 
 Before you start using Git, configure your credentials to identify yourself in commits.

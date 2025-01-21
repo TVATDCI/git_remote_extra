@@ -1,6 +1,20 @@
-# Getting Started with Git and GitHub
+# Getting Started with Git and GitHub/new_feature(branch)
 
 Welcome! This guide is for beginners who want to set up and start using Git and GitHub efficiently.
+
+---
+
+## Table of Contents
+
+- [Getting Started with Git and GitHub/new_feature(branch)](#getting-started-with-git-and-githubnew_featurebranch)
+  - [Table of Contents](#table-of-contents)
+  - [1. Setting Up Your Git Credentials](#1-setting-up-your-git-credentials)
+  - [2. Generating and Adding an SSH Key to GitHub](#2-generating-and-adding-an-ssh-key-to-github)
+  - [3. Creating a New Repository on GitHub](#3-creating-a-new-repository-on-github)
+  - [4. Cloning an Existing Repository](#4-cloning-an-existing-repository)
+  - [5. Basic Git Workflow](#5-basic-git-workflow)
+  - [6. Common Git Commands](#6-common-git-commands)
+  - [7. Resolving Merge Conflicts](#7-resolving-merge-conflicts)
 
 ---
 
@@ -160,6 +174,68 @@ Navigate to the project directory:
 
    ```bash
    git push
+   ```
+
+---
+
+## 6. Common Git Commands
+
+Here are some common Git commands you might find useful:
+
+- **Check the current branch:**
+
+  ```bash
+  git branch
+  ```
+
+- **Create a new branch:**
+
+  ```bash
+  git checkout -b new-branch-name
+  ```
+
+- **Switch to an existing branch:**
+
+  ```bash
+  git checkout branch-name
+  ```
+
+- **Merge a branch into the current branch:**
+
+  ```bash
+  git merge branch-name
+  ```
+
+- **Delete a branch:**
+
+  ```bash
+  git branch -d branch-name
+  ```
+
+---
+
+## 7. Resolving Merge Conflicts
+
+Merge conflicts occur when changes from different branches conflict with each other. Here's how to resolve them:
+
+1. **Identify the files with conflicts:**
+
+   ```bash
+   git status
+   ```
+
+2. **Open the conflicted files and manually resolve the conflicts. Look for conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`) and edit the file to resolve the conflicts.**
+
+3. **After resolving the conflicts, stage the resolved files:**
+
+   ```bash
+   git add resolved-file
+   ```
+
+4. **Commit the resolved changes:**
+
+   ```bash
+   git commit -m "Resolved merge conflicts"
    ```
 
 ---

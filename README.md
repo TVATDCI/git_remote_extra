@@ -4,6 +4,9 @@ Welcome! This guide is for beginners who want to set up and start using Git and 
 
 ---
 
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
+
 ## Table of Contents
 
 - [Getting Started with Git and GitHub/new_feature(branch)](#getting-started-with-git-and-githubnew_featurebranch)
